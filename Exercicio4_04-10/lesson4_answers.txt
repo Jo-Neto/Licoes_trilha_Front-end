@@ -1,0 +1,35 @@
+1- versao 5
+
+2- São marcadores para indicar o ponto de começo e o ponto de término de um elemento. 
+   As "start tags" podem conter um ou mais atributos e, se necessário, seus respectivos valores.
+   Ex: <p> paragrafo  </p>
+
+3- Atributos são expressos dentro das "start tag"(s), são compostos por um nome e um valor,
+   porém as vezes os valores são implicitos (não precisam ser manualmente declarados).
+
+4- Não, exceto quando for declarado "about:legacy-compat" no DOCTYPE 
+
+5- É uma API para acesso e manipulação de objetos/elementos de documentos, principalmente XML e HTML.
+
+6- URL = Uniform Resource Locator, ou "localizador uniforme de recursos", ou "web address", ou "endereço web", é como o próprio nome diz, 
+   um nome que segue uma sintaxe padronizada para acessar um endereço e consequentemente um recurso digital localizado naquele endereço. (ex: um arquivo)
+
+7- O atributo "charset" define a codificação de caracteres do documento HTML, ao se usar uma codificação incompativel com a
+   aplicação que irá acessar o arquivo, o documento será ilegivel, tanto para um leitor humano quanto para um programa.
+
+8- É um tipo de codificação de caracteres (como se fosse uma tabela em para cada caractere é atribuido um numero, obviamente binario),  
+   ele usa entre 1 a 4 bytes para um caractere dependendo da necessidade e raramente é utilizado mais que 1 byte. Ele é importante
+   pois além de ser o escolhido em varios acordos para ser a codificação padrão, ele é retro-compativel a codificação ASC2, que ainda faz
+   parte de sistemas e programas muito antigos, e além disso, é quase uniforme sua presença na WWW e em sistemas digitais modernos.
+
+9- Estruturar um arquivo HTML de forma que faça sentido a relação interna entre elementos, atributos e tipo de tags, pois essa relação muitas vezes
+   se estende além da simples forma visual do arquivo HTML, por exemplo: integrações com mecanismos de busca e acesso por pessoas com limitação. 
+   Exs: tag <s> para elementos defasados ou sem importancia
+        tag <small> para notas de rodapé
+	tag <samp> seu elemento representa um output de um programa ou computador externo ao texto
+	tag <abbr> representa abreviação/acronimo
+
+10- O atributo lang serve para definir em qual lingua o elemento atribuído é escrito, possui função similar a semântica, como por exemplo:
+    acesso facilitado para pessoas com limitações, apps de tradução, mecanismo de busca, etc.
+    Dependendo das configurações do usuario, ao abrir uma pagina em certa lingua, o navegador pode traduzir automaticamente a pagina, ou mesmo
+    perguntar se o usuario deseja acessar uma pagina traduzida, ou mesmo, não traduzi-la.
