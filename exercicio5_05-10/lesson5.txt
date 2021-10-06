@@ -1,0 +1,13 @@
+1- Enquanto ambos são elementos para manipulação de conjunta de seus "children elements", o "div" é um elemento que manipula seus    
+   elementos filhos por uma estrutura em bloco (tem um escopo grandioso, normalmente de manipular varios elementos simultaneamente)
+   e o "span" faz o mesmo, porém com uma estrutura "inline", que pressupõe estilizações com menor escopo/localizadas.
+
+2- 
+
+3- O uso excessivo de "div" não explicita significado semantico, tornando o documento mais pobre em termos de acessibilidade,
+   e menos claro para processos automatizados, e também pode tornar o código menos claro para terceiros. O uso do div, apesar de
+   apropriado para estilizações em bloco de varios elementos-filho, deve ser usado com objetivo de seccionamento semantico em 
+   ultimo caso, pois o HTML versão 5 dispõe de diversos recursos para divisão semantica do documento. Ex: article, section, main, footer.
+   
+   
+   
