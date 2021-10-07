@@ -1,0 +1,8 @@
+1- 
+
+2- O hidden indica que o elemento, ainda não é, ou não é mais, relevante. Por exemplo, pode ser usado
+para não mostrar tabela de login para um usuario que já esta logado, ou para filtrar conteudos de acordo 
+com a região do usuario ou até mesmo hora e data, ou então como controle de formulários (por exemplo, 
+não pedir CNH para um usuario que marcou ser menor de 18 anos).
+
+3-  

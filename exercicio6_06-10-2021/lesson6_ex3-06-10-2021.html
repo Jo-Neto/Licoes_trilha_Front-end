@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang = "pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>lição 6 - 8.Linguagem de notação HTML - Part 5, ex: 1</title>
+</head>
+<body>
+<form>
+    <h1 style="font-size:200%;";>Antes de continuar, cadastre-se preenchendo os dados abaixo:</h1>
+    <fieldset>
+    <legend style="font-size:130%"> <b>Dados de acesso:</b> </legend>
+    <p><label>Email:     <br/><input type=email name=usr_mail></label></p>
+    <p><label>Senha:     <br/><input type=password name=usr_pass></label></p>
+    <p><label>Confirme a senha: <br/><input type=password name=usr_passconf></label></p>
+    </fieldset><br/>
+
+    <fieldset>
+    <legend style="font-size:130%"> <b>Dados pessoais:</b> </legend>
+    <p><label>Nome: <input type=text name=usr_name></label></p>
+    <p><label>Data de nascimento: <input type=date name=usr_dateborn></label></p>
+    <p> Genero: </p><label><input type=radio name=usr_gen>Masculino </label>
+    <label> <input type=radio name=usr_gen>Feminino</label><br/>
+    <p><label>CPF/CNPJ: <input type=number name=text_name><span style="font-size:85%"> (somente numeros)</span></label></p>
+    </fieldset><br/>
+
+    <fieldset>
+    <h2 style="font-size:100%">Qual o seu interesse na nossa plataforma?</h2>
+    <p><label><input type=checkbox name=usr_check_intbuy>Tenho interesse na plataforma, e desejo compra-lá agora </label></p>
+    <p><label><input type=checkbox name=usr_check_intnomoney>Tenho interesse na plataforma e desejo compra-la, mas não possuo recursos no momento </label></p>
+    <p><label><input type=checkbox name=usr_check_intnobuy>Tenho interesse na plataforma, mas ainda não deseja compra-lá agora  </label></p>
+    <p><label><input type=checkbox name=usr_check_noint>Não tenho interesse na plataforma </label></p>
+    </fieldset><br/>
+
+    <fieldset>
+    <legend style="font-size:130%"> <b>Informações financeiras</b> </legend>
+    <p>qual sua tolerancia ao risco? <br/><b>baixa</b><input type=range name=usr_risk min=0 max=4><b>alta</b></p>
+    </fieldset><br/>
+    <input type=submit value="Concluir cadastro" name=submit_name>
+    <p><input type=reset value="limpar dados"></p>
+    <p>Gosta de nossa plataforma? Quer testar ela gratis?</p>
+    <p><input type=button value="Quero!"></p>
+</form>
+</body>
+</html>
+<!--text, password, date, radio, checkbox, range, reset, submit-->
+<!--hidden, fieldset, label, forms-->
