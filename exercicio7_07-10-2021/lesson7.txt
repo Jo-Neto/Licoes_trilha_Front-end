@@ -1,0 +1,4 @@
+1-Quando alguém linkar e compartilhar uma URL, ela será mostrada de acordo com os atributos do protocolo 
+opengraph da página, portanto ela define como a sua pagina vai ser exibida ao ser linkada.
+
+2-https://jo-neto.github.io./
