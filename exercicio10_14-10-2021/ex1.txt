@@ -1,0 +1,4 @@
+1- Diversas vantagens: menor gasto de ocupação de discos o que também reduz custos de transmissão, adaptabilidade 
+em diferentes resoluções de tela, maior qualidade da imagem ao ser vista com zoom, padronização e consequentemente 
+aumento de compatibilidade (css, js, e html por exemplo), pode ser usada para animações, embutido de forma 
+"verdadeira" no código ou seja não necessita de dependências, de arquivos para ser exibida uma imagem.
