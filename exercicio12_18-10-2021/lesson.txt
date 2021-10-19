@@ -1,0 +1,17 @@
+1- É uma linguagem que fornece a um browser (ou outros user agents) mecanismos para estilizações adicionais
+
+2- seletor{bloco de declarações}
+   um seletor (selector) pode ser escritos de varias formas e represetam o que vai ser estilizado
+   é necessário uma ou mais declarações, elas possuem a seguinte sintaxe: "propriedade: valor", separadas por ";"
+   as declarações especificam como vai ser a estilização, declarações e seletor formam uma "regra"(rule).
+
+3-
+
+4- a prioridade maior é da regra que contém "!important" na declaração, após ela, regras com maior especificidade 
+   tem prioridade, e por ultimo, caso duas regras tenham a mesma especificidade, a mais recente(declarada depois) 
+   tem prioridade.
+
+   caso duas declarações contenham "!important", o usuario da estilização tem prioridade sobre o autor, 
+   nos demais casos o autor tem prioridade sobre o usuario, e o "user agent"(browser) tem a menor prioridade.
+
+5- Somente se as duas possuem a mesma especificidade, se esse for o caso, a atribuição posterior invalida a anterior.
