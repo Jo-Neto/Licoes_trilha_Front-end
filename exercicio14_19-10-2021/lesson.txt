@@ -1,0 +1,2 @@
+1- Os seletores servem para especificar em quais elementos html a regra sera aplicada, 
+um seletor vem antes do bloco de declarações.
