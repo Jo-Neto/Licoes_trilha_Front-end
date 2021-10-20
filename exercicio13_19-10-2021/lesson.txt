@@ -1,0 +1,16 @@
+1- Como a imagem original que escolhi tinha 3000X2000, ao redimensionar para 2000x2000 no photopea é possível 
+ver um claro aumento no pixelamento da imagem ao usar o zoom, cabe notar também no entanto, que o photopea 
+utiliza um formato diferente da imagem original.
+
+2- Após salvar todos os formatos pelo Photopea e abri-los também no Photopea:
+    -A imagem no formato PSD continua exatamente igual, já que esse é o formato natural do photopea.
+    -O .gif apesar de ter uma pixelação aparentement identica perdeu muita diferenciação de cor.
+    -Os outros formatos( bmp png jpg ) parecem idênticos ao se inspecionar a olho nu com zoom, com excessão do 
+      ".jpg", que apesar de parecer haver menor diferenciação em alguns pixels, a diferença observada por mim foi 
+      desprezível, cabe ressaltar que salvei a imagem em .jpg com qualidade alta.
+
+  Após abrir com o visualizador de fotos nativo do windows:
+    -É possível ver pequenos blocos ao se inspecionar o jpg com zoom que não estão presentes no "bmp" e "png".
+    -O "bmp" e "png" parecem idênticos ao se inspecionar com zoom a olho nu.
+    -No "gif" é possivel observar varios blocos de cores sem perda na qualidade da imagem.
+    -O meu computador não possui suporte ao formato PSD e sua analise já foi respondida anteriormente ao abri-lo pelo Photopea.
