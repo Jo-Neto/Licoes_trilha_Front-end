@@ -1,0 +1,9 @@
+dif block e inline box
+
+1- Blocos com o parametro <display-outside> com valor "inline" não podem ter"height" e "width" como parametros, e não podem 
+   adentrar outras linhas, nesse caso, a box invade outras linhas se estiver verticalmente inapropriado, ja horizalmente 
+   empurra outras boxes.
+
+   Blocos com o parametro <display-outside> com valor "block" podem ter "height" e "width" com parametros, e podem invadir 
+   outras linhas, nesse caso ele empurra outras boxes tanto vertical quanto horizontalmente, normalmente o bloco ocupa
+   toda a linha disponivel.
