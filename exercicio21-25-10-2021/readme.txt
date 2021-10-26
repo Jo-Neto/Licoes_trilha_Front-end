@@ -1,0 +1,1 @@
+Exercicio sem postagem
