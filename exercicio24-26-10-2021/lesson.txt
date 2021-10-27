@@ -1,0 +1,10 @@
+1- Ao escolher cores para um website, primeiro devemos ter em mente o publico alvo e o tipo de emoção despertada no 
+   usuario assim que ele bater o olho no website, a escolha de cores deve sim visar o"feeling" que se deseja causar no usuario, 
+   mas também há algumas regras gerais, são elas: 
+
+   -evitar cores puras e saturadas devido a uma sensação de sobrecarga visual.
+   -evitar cores "mortas" e sem contraste, devido a ausência de uma impressão/presença visual do website.
+   -evitar usar cores primarias e secundarias com brilho muito alto em conteúdos primarios, devido ao mesmo motivo da primeira 
+   regra, sobrecarga visual.
+
+   Cabe ressaltar que a liberdade artística não deve se limitar a regras concretas. 

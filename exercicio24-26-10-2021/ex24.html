@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Exercicio 24</title>
+    <meta charset= "UTF-8">
+    <style>
+        p {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            margin: 0px;
+            margin-top: 4%;
+            padding: 0 4% 0 6%;
+            width: 1%;
+            height: 80%;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        p:nth-of-type(1) {
+            background-color: #A8383B;
+            margin-left: 3.5%;
+            border-bottom-left-radius: 2em 2em;
+            border-top-left-radius: 2em 2em;
+        }
+
+        /*-----------------------------------SINGLE LINE CODE SECTION START------------------------------------*/
+
+        p:nth-of-type(2) { background-color: #A8383B80; }
+
+        p:nth-of-type(3) { background-color: rgb(46, 66, 114);   color:white; }
+
+        p:nth-of-type(4) { background-color: rgb(46, 66, 114, 0.5); }
+
+        p:nth-of-type(5) { background-color: hsl( 59, 49.8%, 44.5%); }
+
+        p:nth-of-type(6) { background-color: hsla(59, 49.8%, 44.5%, 0.5); }
+
+        p:nth-of-type(7) { background-color: seagreen; }
+
+        /*------------------- -----------SINGLE LINE SIMPLE CODE SECTION END---------------------------------*/
+
+        p:nth-of-type(8) {
+            color: currentcolor;
+            background: radial-gradient(50% 50% at 50% 50%, #AE2323 0%, #AE2323 0%, #AE2323 0.01%, rgba(17, 16, 16, 0) 100%);
+            border-bottom-right-radius: 2em 2em;
+            border-top-right-radius: 2em 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <p>HEX</p>
+    <p>HEX ALPHA</p>
+    <p>RGB</p>
+    <p>RGB ALPHA</p>
+    <p>HSL</p>
+    <p>HSL ALPHA</p>
+    <p>PRE DEFINED</p>
+    <p>CURRENT</p>
+</body>
+
+</html>
