@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>flexible box</title>
+    <meta charset="UTF-8">
+    <style>
+        .main {
+            display: flex;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            flex-wrap: wrap;
+            width: 95%;
+            height: 95%;
+        }
+
+        .inside{
+            display: flex;
+            align-items: center;
+            border-style: solid;
+            border-color: #ACB9C7;
+            border-width: 0.3em;
+            border-radius: 2em 2em;
+            background-color: #EDF3FF;
+            width: 25%;
+            padding: 10%;
+        }
+
+        .p {
+            border-style: dashed;
+            border-width: 0.1em;
+            border-radius: 5px 5px;
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .inside:nth-of-type(1) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .inside:nth-of-type(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        .inside:nth-of-type(3) {
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 1%;
+            padding-left: 1%;
+            padding-right: 19%;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        .inside:nth-of-type(4) {
+            align-items: flex-start;
+            flex-direction: row;
+            margin-top: 1%;
+            padding-top: 1%;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="inside">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhTPyEZUiF61WdYeZj-Bgq4jRnBEmPCqlaRib_FCcHAb_hDXeZ0GM2Tch4vDXFY5LuYRI&usqp=CAU">
+        </div>
+        <div class="inside">
+            <div class=p>estamos</div>
+            <div class=p>alinhados</div>
+            <div class=p>verticalmente</div>
+            <div class=p>no centro</div>
+        </div>
+        <div class="inside">
+            <div class=p>estamos</div>
+            <div class=p>alinhados</div>
+            <div class=p>na</div>
+            <div class=p>vertical</div>
+        </div>
+        <div class="inside">
+            <div class=p> estamos</div>
+            <div class=p> alinhados</div>
+            <div class=p> na</div>
+            <div class=p> horizontal</div>
+        </div>
+    </div>
+</body>
+
+</html>
