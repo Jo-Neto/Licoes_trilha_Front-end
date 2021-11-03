@@ -1,0 +1,1 @@
+Exercicio em grupo do figma para apresentação, apresentado em 03/11/2021, aproximadamente 11:05-11:10
