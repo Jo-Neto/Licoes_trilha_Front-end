@@ -1,0 +1,21 @@
+1-  Design é um termo muito amplo, mas no nosso contexto é um processo que começa desde a prototipação e planejamento 
+    mais básico até a aplicação dos objetivos definidos, desde a parte artística até a parte funcional, levando em conta 
+    tudo que esta envolvido, seja isso um usuário, a empresa desenvolvedora, recursos, logística, intermediários, etc.
+    Assim um projeto segue uma roadmap e não fica sem direcionamento.
+
+2-  User Xperience, porção de um projeto que tem como escopo, a experiência do usuário como um todo, sua facilidade de uso, 
+    sua resposta emocional, seu objetivo e tempo gasto, se possui fácil compreensão e entendimento, se não se sente sobrecarregado,
+    se tem uma experiência confortável. Sua função varia de produto para produto, portanto pode ter vários objetivos, 
+    como fazer um serviço de forma rápida e não invasiva, ou confortavelmente direcionar o usuário para um produto e 
+    incentiva-lo a concluir a compra, agradar o usuário para faze-lo retornar, etc.
+
+3-  User Interface, interface de interação com o usuário, aquilo que o usuário, vê, ouve, toca, comanda, lê, acessa.  Para o 
+    usuário poder interagir com o aplicativo/produto.
+
+4-  É a organização e estruturação das informações, de modo a atingir um objetivo, comumente de diminuir o tempo gasto e a 
+    sobrecarga de informações, mas também pode ser o de diminuir custos, ou de proporcionar uma experiência mais agradável e 
+    easy-of-acces.
+
+5-  Design centrado no usuário, é um design feito que enxerga o usuário como "central point" do projeto, o usuário é sempre 
+    levado em conta em todas as decisões de design, e possui prioridades sobre as demais, serve para proporcionar o usuário 
+    o que ele procura da melhor forma possível. 
