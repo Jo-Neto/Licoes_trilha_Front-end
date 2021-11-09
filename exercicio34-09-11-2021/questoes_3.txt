@@ -1,0 +1,6 @@
+1   Sucesso com alegria, preto e laranja/amarelo.
+
+   -laranja com tom escuro rgb(199,82,0), cmyk(0,59,100,22), #C75200.
+   -amarelo alaranjado rgb(253,211,79), cmyk(0,17,69,1), #FCD24E.
+   -cinza claro rgb(73,73,73), cmyk(0,0,0,71), #4A4A4A.
+   -cinza escuro rgb(46,46,46), cmyk(0,0,0,82), #2E2E2E.
